@@ -8,12 +8,6 @@ body{
     
 }
 
-header{
-  
-   
- 
-}
-
 .capa{
     background: #e3f06c8e;
    
@@ -23,4 +17,12 @@ header{
 .navbar{
     background: rgb(243, 230, 115);
    
+}
+
+footer{
+	
+	text-align: center;
+	background: rgb(236, 234, 234);
+
+
 }
