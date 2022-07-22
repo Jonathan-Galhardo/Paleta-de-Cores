@@ -14,9 +14,9 @@
 
     <title>Todo Site Deve Ter</title>
 </head>
-<body>
+<body id="body">
     <header> <!--Início Header-->
-        <nav class="navbar navbar-expand-sm navbar-light ">
+        <nav id="menu"  class="navbar navbar-expand-sm navbar-light ">
             <div class="container">
                 <a href="#" class="nvbar-brand"><img src="imagens/logo.png"></a>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
@@ -39,7 +39,7 @@
         <div class="container" >
             <div class="row" >
                 <div class="col-md-6 d-none d-sm-block mb-3">
-                    <img src="imagens/cores.jpg" class="img-fluid mt-5">
+                    <img id="imgcapa" src="imagens/cores.jpg" class="img-fluid mt-5">
                 </div> 
                 <div class="col-md-6 d-flex">
                     <div class="align-self-center">
@@ -47,15 +47,16 @@
                         <p>A paleta de cores é um dos elementos mais significativos do web design. As cores podem articular a mensagem do seu site sem utilizar palavras.</p>
                         <p>É por isso que a escolha de cores é um dos primeiros passos que você irá tomar quando criar um site, e é importante que você tome uma decisão consciente sobre o assunto. Você também pode se inspirar em paletas de cores de sites já existentes se preferir. </p> 
                         <p >Selecione abaixo qual a sua atividade e personalize a paleta de cores de acordo com o seu ramo:</p>
-                         <form class="mb-4" onclick="selecionar()">
+                         <form class="mb-4">
                             <div class="input-group input-group-lg">
-                                <select class="input-group-append">
-                                    <option class="input-group-append">Escolha...</option>
-                                    <option class="input-group-append">Saúde</option>
-                                    <option class="input-group-append">Contabilidade</option>
-                                    <option class="input-group-append">Veterinária</option>
-                                    <option class="input-group-append">Academia</option>
-                                </select>
+                                <button type="button" id="n1" onclick="um()">teste</button>
+                                <button name="selecao" class="input-group-append">
+                                    <option class="input-group-append" value="0" >0</option>
+                                    <option class="input-group-append" value="1" >1</option>
+                                    <option class="input-group-append" value="2" >2</option>
+                                    <option class="input-group-append" value="3" >3</option>
+                                    <option class="input-group-append" value="4" >4</option>
+                                </button>
                             </div>
                         </form>
 
@@ -69,7 +70,7 @@
         </div>
     </section> <!--Fim Seção-->
 
-    <section class="caixa fundo" ><!--Início Seção-->
+    <section id="section1" class="caixa fundo" ><!--Início Seção-->
         <div class="container mt-5 mb-5">
             <div class="row">
                <div class="col-md-6 d-flex">
@@ -89,7 +90,7 @@
         </div>
     </section> <!--Fim Seção-->
 
-    <section class="capa"><!--Início Seção-->
+    <section id="section2" class="capa"><!--Início Seção-->
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -107,7 +108,7 @@
         </div>
     </section><!--Fim Seção-->
     
-    <section class="caixa fundo" ><!--Início Seção-->
+    <section id="section3" class="caixa fundo" ><!--Início Seção-->
         <div class="container mt-5 mb-5">
             <div class="row">
                <div class="col-md-6 d-flex">
@@ -126,7 +127,7 @@
         </div>
     </section> <!--Fim Seção-->
 
-    <section class="capa"><!--Início Seção-->
+    <section id="section4" class="capa"><!--Início Seção-->
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -144,7 +145,7 @@
         </div>
     </section><!--Fim Seção-->
 
-    <section class="caixa fundo" ><!--Início Seção-->
+    <section id="section5" class="caixa fundo" ><!--Início Seção-->
         <div class="container mt-5 mb-5">
             <div class="row">
                <div class="col-md-6 d-flex">
