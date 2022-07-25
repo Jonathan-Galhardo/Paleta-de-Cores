@@ -16,8 +16,8 @@ Neste projeto inserimos a função de alteração de cor do texto, background e 
 ### Demonstração da Funcionalidade:
 https://user-images.githubusercontent.com/89818336/180856568-c7a3fb97-1b34-409a-9e5b-7513950ba9e1.mp4
 
-### Acesso ao projeto: 
-https://clt-ou-pj.vercel.app/
+### Acesso ao projeto:
+https://paleta-de-cores.vercel.app/
 
 ### Tecnologias Utilizadas: 
 - HTML5 
