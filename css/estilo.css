@@ -8,21 +8,43 @@ body{
     
 }
 
+#n1{
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+#section2, #section4 {
+    border-radius: 3% 0 3% 0;
+    box-shadow: 5px 5px 5px 5px rgb(110, 110, 110);
+    
+}
+
+
+#section1, #section3, #section5 {
+    border-radius: 0 3% 0 3%;
+    box-shadow: 5px 5px 5px 5px rgb(110, 110, 110);
+}
+
 .capa{
-    background: #e3f06c8e;
+    
+    border-radius: 3% 0 3% 0;
+    box-shadow: 5px 5px 5px 5px rgb(110, 110, 110);
+    
    
     
 }
 
 .navbar{
-    background: rgb(243, 230, 115);
+    
+    box-shadow: 5px 5px 5px 5px rgb(110, 110, 110);
+    
    
 }
 
 footer{
 	
 	text-align: center;
-	background: rgb(236, 234, 234);
+	
 
 
 }
