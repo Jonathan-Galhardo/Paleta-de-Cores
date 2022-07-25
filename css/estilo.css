@@ -11,6 +11,7 @@ body{
 #n1{
     border-radius: 100%;
     margin-right: 10px;
+    box-shadow: 2px 2px 2px 2px black;
 }
 
 #section2, #section4 {
